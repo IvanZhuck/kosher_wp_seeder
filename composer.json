@@ -1,0 +1,26 @@
+{
+  "repositories":[
+    {
+      "type":"composer",
+      "url":"https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "*",
+    "wpackagist-plugin/rus-to-lat-advanced": "*",
+    "wpackagist-plugin/advanced-custom-fields": "*",
+    "wpackagist-plugin/all-in-one-seo-pack": "*",
+    "wpackagist-plugin/google-sitemap-generator": "*",
+    "wpackagist-plugin/contact-form-7": "*",
+    "wpackagist-plugin/woocommerce": "*",
+    "wpackagist-plugin/saphali-woocommerce-lite": "*"
+  },
+  "extra": {
+    "wordpress-install-dir": "app/wp",
+    "installer-paths": {
+      "app/content/plugins/{$name}/": ["vendor:wpackagist-plugin"],
+      "app/content/themes/{$name}/": ["vendor:wpackagist-theme"]
+    }
+  }
+}

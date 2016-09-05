@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "bourbon": "*",
+    "bourbon-neat": "*",
+    "browserify": "*",
+    "fullpage.js": "*",
+    "gulp": "*",
+    "gulp-clean-css": "*",
+    "gulp-concat": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "jquery": "*",
+    "normalize-scss": "*",
+    "vinyl-source-stream": "*"
+  }}
