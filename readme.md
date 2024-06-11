@@ -1,3 +1,6 @@
+> The project is outdated and won't get any future updates.\
+> Please visit the repository "Wordpress Sandbox" instead: https://github.com/IvanZhuck/wordpress-sandbox
+
 # Kosher WordPress Seeder
 It's a WP project seeder with composer, npm, gulp and browserify.
 
